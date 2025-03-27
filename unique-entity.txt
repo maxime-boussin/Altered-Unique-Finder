@@ -1,0 +1,51 @@
+Id
+Code
+Edition
+ |-- Id
+ |-- Name
+ |-- Code
+Faction
+ |-- Id
+ |-- Name
+ |-- Code
+Family
+ |-- Id
+ |-- Code
+ |-- Name
+ |-- ReserveCosts[]
+ |-- HandCosts[]
+ |-- SupportEffects
+ |-- Factions[]
+ |-- Art
+UniqueId
+Owner
+ |-- User...
+Price
+HandCost
+ReserveCost
+ForestValue
+MontainValue
+WaterValue
+SupportEffect
+ |-- Id
+ |-- Text
+MainEffects[]
+ |-- Id
+ |-- Type
+      |-- Id
+      |-- Code (flèche = J, main = H, reserve = R, autre = X)
+      |-- Activator (Si code = X) (avant le "—") ?
+          |-- Id
+          |-- Type (At, When)
+          |-- Subject (Dusk, noon, another character, you, I, a card, one of your expeditions, a robot...)
+          |-- Action (joins your expeditions, play a spell, go to reserve, leave your reserve...) ?
+ |-- Conditions[] (avant le ":" et séparés par les "and") ?
+      |-- Id
+      |-- Type (If, After, Unless, You)
+      |-- Subject (you, Rest, there, your, may)
+      |-- Action (Control one or more Landmarks, are two or more exhausted cards in reserve, Hero Expedition is behind...) ?
+ |-- Results[]
+      |-- Id
+      |-- Subject? (I, another character, a character with Hand Cost {3} or less...)
+      |-- Action (gains Anchored, gains 2 boosts, draw a card, Sabotage...)
+Image

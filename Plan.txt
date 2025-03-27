@@ -1,0 +1,21 @@
+1 - Créer et générer model et bdd
+2 - Créer une commande ou une route pour inserer des données dans: Edition, Faction puis Family
+3 - Insérer avec les commandes les Editions, puis les factions, puis les 252 cartes dans family (trier par communes pour plus de facilités)
+4 - Créer un script pour boucler sur chaque family de la BDD.
+  4.1 - Décomposer la boucle en bouclant sur l'association de params handCosts/reserveCosts
+  4.2 - Pour chaque résultat, boucler sur le nombre d'occurences / 36 (arrondi au suppérieur)
+  4.3 - Pour chaque boucle de boucle, boucler sur chaque carte du résultat en réccupérant le détail
+  4.4 - Pour chaque carte: insérer les données flat en bdd
+    4.4.1 - Pour chaque MainEffect: décomposer le plus possible
+    4.4.2 - Afficher en console les nouveaux Activators/Conditions/Results pour vérifier les eurreurs dans le code
+5 - Créer une route pour réccup les infos flat (factions, editions, voire families)
+6 - Créer des routes pour réccupérer dynamiquement (via un front) en fonction de la saisie les noms des cartes, les effets, les conditions, les supports...
+7 - Créer une route pour chercher une unique via mots-clé saisis et réccup préalablement
+8 - Créer un front pour effectuer cette recherche
+9 - Créer un système d'inscription/connexion
+10 - Créer un système de claim d'une carte et de pricing
+11 - Créer une vue détail de carte avec aussi Détenteur (info contact) et prix
+12 - Ajouter un import des cartes (comme altverse) pour claim auto
+Bonus
+13 - Ajouter à la vue détail une visualisation des cartes similaires
+14 - Ajouter système de notation des cartes (à la uniqueRanking?) voire estimation de carte en fonction de l'effet, le cost, les stats...
