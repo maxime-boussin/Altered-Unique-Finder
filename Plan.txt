@@ -1,4 +1,5 @@
 1 - Créer et générer model et bdd [Check]
+  1.1 - Ajouter API Plateform
 2 - Créer une commande ou une route pour inserer des données dans: Edition, Faction puis Family
 3 - Insérer avec les commandes les Editions, puis les factions, puis les 252 cartes dans family (trier par communes pour plus de facilités)
 4 - Créer un script pour boucler sur chaque family de la BDD.
